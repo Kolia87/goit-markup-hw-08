@@ -29,6 +29,11 @@
             <li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open-btn" data-menu-open>
+          <svg class="mobile-menu-open-btn__icon" width="24" height="16">
+            <use href="./images/icons.svg.svg#burger-icon"></use>
+          </svg>
+        </button>
         <ul class="contacts">
             <li class="contacts__item">
             <a class="contacts__link" href="mailto:info@devstudio.com"> 
@@ -46,9 +51,57 @@
           </li>
         </ul>
       </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+          <button type="button" class="mobile-menu__close-btn" data-menu-close>
+            <svg class="mobile-menu__close-icon" width="40" height="40">
+              <use href="./images/icons.svg.svg#mobile-clouse_icon"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu__button">
+            <ul >
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link mobile-menu__link_current" href="">Студия</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="">Портфолио</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link" href="">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mobile-menu__contacts">
+            <ul>
+              <li class="mobile-menu__phone">
+                <a href="tel:+380961111111">+380961111111</a>
+              </li>
+              <li class="mobile-menu__email">
+                <a class="mobile-menu__link mobile-menu__link_color " href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+            </ul>
+          </div>
+            <div>
+            <ul class="mobile-menu__social">
+              <li class="mobile-menu__social__item">
+                <a class="mobile-menu__social__link" href="">Instagram</a>
+              </li>
+              <li class="mobile-menu__social__item">
+                <a class="mobile-menu__social__link" href="">Twitter</a>
+              </li>
+              <li class="mobile-menu__social__item">
+                <a class="mobile-menu__social__link" href="">Facebook</a>
+              </li>
+              <li class="mobile-menu__social__item">
+                <a class="mobile-menu__social__link" href="">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+                   
+        </div>
+      </div>
     </header>
-    <main>
-      <!-- hero-->
+    <!-- <main>
       <section class="hero">
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
@@ -56,7 +109,6 @@
         </div>
       </section>
 
-      <!-- section -->
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Качества</h2>
@@ -112,7 +164,6 @@
           </ul>
         </div>
       </section>
-      <!-- gallery-->
       <section class="section section--nopadding-top">
         <div class="container">
           <h2 class="section__title">Чем мы занимаемся</h2>
@@ -154,7 +205,6 @@
         </div>
       </section>
 
-      <!-- user-->
       <section class="section section--user-background">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
@@ -344,7 +394,6 @@
         </div>
       </section>
     </main>
-      <!-- Clients-->
       <section class="section">
         <div class="container">
           <h2 class="section__title">Постоянные клиенты</h2>
@@ -395,7 +444,6 @@
          </div>
       </section>
 
-    <!--footer-->
     <footer class="footer">
       <div class="container footer__flex">
         <div>
@@ -542,6 +590,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/menu.js"></script>
   </body>
 </html>
