@@ -1,20 +1,13 @@
-:root {
-    --primery-text-color: #212121;
-    --title-text-color: #212121;
-    --text-color: #757575;
-    --accent-color: #2196f3;
-    --primary-bg-color: #ffffff;
-    --border-img: #eeeeee;
-    --portfolio-color-button: #f5f4fa;
-    --hero-bgr: #2f303a;
-    --rgba-footer: rgba(255, 255, 255, 0.6);
-    --page-header: #ececec;
-    --border: #afb1b8;
-    --fill-footer: rgba(255, 255, 255, 0.1);
-    --clients-icon-bg:#AFB1B8; 
-    --wrapper_img: rgba(33, 150, 243, 0.9);
-    --wrapped_gal: rgba(47, 48, 58, 0.8);
-    --input: rgba(33, 33, 33, 0.2);
-    --placeholder: rgba(117, 117, 117, 0.5);
-  }
+$accent-color: #2196f3;
+$main-color: #757575;
+$background-dark-theme: #2f303a;
+$background-primary-theme: #ffffff;
+$background-second-theme: #f5f4fa;
+$title-text-color: #212121;
+$white-text-color: #ffffff;
+$button-hover: #188ce8;
+$icon-fill: #afb1b8;
+$border-button: rgba(0, 0, 0, 0.1);
+$footer-color: rgba(255, 255, 255, 0.6);
+$cubic-beizer-hover: cubic-bezier(0.4, 0, 0.2, 1);
   
